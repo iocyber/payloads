@@ -31,12 +31,12 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://github.com/younesfattah/payloads/blob/main/wp5783725-fat-goku-wallpapers.png"
+$image =  "https://github.com/younesfattah/payloads/blob/raw/main/wp5783725-fat-goku-wallpapers.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://github.com/younesfattah/payloads/blob/main/wp5783725-fat-goku-wallpapers.png?dl=1 -O $env:TMP\i.png
+iwr https://github.com/younesfattah/payloads/blob/raw/main/wp5783725-fat-goku-wallpapers.png?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
