@@ -31,16 +31,16 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://github.com/younesfattah/payloads/blob/main/wp5783725-fat-goku-wallpapers.png?raw=true"
+$image =  "https://github.com/iocyber/payloads/blob/main/omgplug/wp5783725-fat-goku-wallpapers.png?raw=true"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://github.com/younesfattah/payloads/blob/main/wp5783725-fat-goku-wallpapers.png?raw=true?dl=1 -O $env:TMP\i.png
+iwr https://github.com/iocyber/payloads/blob/main/omgplug/wp5783725-fat-goku-wallpapers.png?raw=true?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/younesfattah/payloads/blob/main/over9000.swf.wav?raw=true"
+$wav = "https://github.com/iocyber/payloads/blob/main/omgplug/over9000.swf.wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
